@@ -7,7 +7,7 @@ import gleam/option.{type Option, None, Some}
 import gleam/result
 
 pub fn main() {
-  let assert Ok(contents) = simplifile.read("files/input-one.txt")
+  let assert Ok(contents) = simplifile.read("input/input-one.txt")
   let sum =
     string.split(contents, "\n")
     |> sum_all
